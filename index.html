@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Новинки</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!--Header-->
+      <div class="header">
+        <div class="container">
+          <div class="header__cart">
+            <a href="#" class="button button--cart">
+              <img src="./img/cart-icon.svg" alt="cart" />
+              <span class="cart-price">520 ₽</span>
+              <span class="cart-counter">8</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!--//Header-->
+
+      <div class="content">
+        <div class="container">
+          <h2 class="content__title">Новинки</h2>
+          <div class="content__items" id="products-container"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/renderProduct.js"></script>
+  </body>
+</html>
